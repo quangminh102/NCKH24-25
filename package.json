@@ -1,8 +1,11 @@
 {
-  "name": "c",
+  "name": "tngt-dashboard",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "description": "Dashboard hiển thị thông tin tai nạn giao thông Hà Nội",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -29,17 +32,14 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.13.0",
     "node-rtsp-stream": "0.0.9",
-    "nodemon": "^3.1.9",
     "socket.io": "^4.3.2",
     "xml2js": "^0.6.2"
   },
-  "keywords": [],
-  "description": ""
-
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   },
-  
+  "keywords": [],
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
-
